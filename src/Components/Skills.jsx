@@ -17,32 +17,35 @@ const Skills = () => {
             </div>
 
            
-        
+            
             <div className='grid grid-cols-2 md:grid-cols-3 text-center gap-4 md:gap-8 w-full p-4 text-gray-300 font-semibold'>
-                <div className='flex flex-col items-center shadow-md shadow-black p-4 hover:scale-110 gap-4 rounded-md'>
-                    <img src={css} alt="css logo" className='w-20 md:w-28' />
-                    <p>CSS</p>
-                </div>
-                <div className='flex flex-col items-center shadow-md shadow-black p-4 hover:scale-110 gap-4 rounded-md'>
-                    <img src={firebase} alt="firebase logo" className='w-20 md:w-28 ' />
-                    <p>Firebase</p>
-                </div>
-                <div className='flex flex-col items-center shadow-md shadow-black p-4 hover:scale-110 gap-4 rounded-md'>
-                    <img src={github} alt="github logo" className='w-20 md:w-28 ' />
-                    <p>GitHub</p>
-                </div>
-                <div className='flex flex-col items-center shadow-md shadow-black p-4 hover:scale-110 gap-4 rounded-md'>
+                <div className='flex flex-col items-center shadow-lg shadow-[#00D4FC] p-4 hover:scale-110 gap-4 rounded-md'>
                     <img src={react} alt="react logo" className='w-20 md:w-28 ' />
                     <p>React</p>
                 </div>
-                <div className='flex flex-col items-center shadow-md shadow-black p-4 hover:scale-110 gap-4 rounded-md'>
+                <div className='flex flex-col items-center shadow-lg shadow-[#FFCD34] p-4 hover:scale-110 gap-4 rounded-md'>
                     <img src={javascript} alt="javascript logo" className='w-20 md:w-28 '/>
                     <p>Javascript</p>
                 </div>
-                <div className='flex flex-col items-center shadow-md shadow-black p-4 hover:scale-110 gap-4 rounded-md'>
+                <div className='flex flex-col items-center shadow-lg shadow-[#0093DD] p-4 hover:scale-110 gap-4 rounded-md'>
+                    <img src={css} alt="css logo" className='w-20 md:w-28' />
+                    <p>CSS</p>
+                </div>
+                <div className='flex flex-col items-center shadow-lg shadow-[#FFBA30] p-4 hover:scale-110 gap-4 rounded-md'>
+                    <img src={firebase} alt="firebase logo" className='w-20 md:w-28 ' />
+                    <p>Firebase</p>
+                </div>
+                <div className='flex flex-col items-center shadow-lg shadow-[#249EA9] p-4 hover:scale-110 gap-4 rounded-md'>
                     <img src={tailwind} alt="tailwind logo" className='w-20 md:w-28 ' />
                     <p>Tailwind</p>
                 </div>
+                <div className='flex flex-col items-center shadow-lg shadow-[#EBEBEB] p-4 hover:scale-110 gap-4 rounded-md'>
+                    <img src={github} alt="github logo" className='w-20 md:w-28 ' />
+                    <p>GitHub</p>
+                </div>
+                
+                
+                
             </div>
         </div>    
     </div>
